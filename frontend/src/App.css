@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: white;
+  padding: 15px 30px;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #00d4ff;
+}
+
+/* Container */
+.container {
+  padding: 20px;
+}
+
+/* Grid */
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Button */
+button {
+  padding: 8px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Form */
+form input, form select {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+}
