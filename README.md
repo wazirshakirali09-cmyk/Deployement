@@ -1,4 +1,4 @@
-# Car Rental System 🚗
+# Car Rental System 
 
 A professional web application designed to manage car inventory, customer bookings, and rental tracking efficiently.
 
